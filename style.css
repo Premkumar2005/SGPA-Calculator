@@ -9,9 +9,9 @@
     display: flex;
     justify-content: center;
 /*     border: 1px solid green; */
-    width: 97%;
-    margin: 1.5%;
-    border-radius: 5px;
+    width: 100%;
+/*     margin: 1.5%;
+    border-radius: 5px; */
 }
 
 input {
