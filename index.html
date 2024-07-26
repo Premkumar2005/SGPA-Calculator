@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top">
+        <div>
+            <h1>SJCE SGPA CALCULATOR</h1>
+    <div id="enter" class="subject">
+        <h4>Enter total number of subjects in a semester</h4>
+        <h4><input type="number"name="" id="subjects" placeholder="Enter total number of sujects">
+           <button type="button" ondragenter="getsubjects()" onclick="getsubjects()">submit</button></h4>
+    </div>
+        </div>
+    </div>
+    <div class="home">
+    <form id="form">
+     <div>
+        <div>
+            <table id="table" border="1px"></table>
+                <div class="btns">
+                    <button type="button" onclick="refresh()">RESET</button>
+                    <button type="button" onclick="total()">Calculate</button>
+                
+                </div>
+         </div>
+            <h3 id="total">SGPA=</h3>
+        </div>
+    
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
